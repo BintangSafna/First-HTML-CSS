@@ -1,0 +1,286 @@
+// FOR HTMl
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Unduh Font Awesome dibawah -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Ketik code Anda dibawah -->
+    <header>
+      <div class="logo-header">
+        <div class="header-left">
+        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">Log In</a>
+        </div>
+      </div>
+    </header>
+    <div class="top">
+      <div class="container">
+      <h1>BELAJAR CODING.</h1>
+      <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
+      <p>Progate adalah platform online untuk belajar pemrograman.</p>
+      <p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p>
+      <div class="btn-top">
+        <a href="#" class="btn Email">Daftar dengan Email</a>
+        <p>atau</p>
+        <a href="#" class="btn Facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+      </div>
+      </div>
+    </div>
+    <div class="mid">
+      <div class="icon">
+        <div class="heading">
+          <h2>Cari tau dari mana anda mau memulai !</h2>
+        </div>
+         <div class="lessons">
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src="https://prog-8.com/images/html/advanced/html.png">
+                <p>HTML & CSS</p>
+              </div>
+              <p class="text-content">Dua bahasa yang digunakan untuk membangun struktur dan design tambilan website anda. </p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+                <p>jQuery</p>
+              </div>
+              <p class="text-content">JavaScript Library yang cepat, kaya akan fitur dan mudah digunakan untuk menangani animasi dan permintaan Ajax.</p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                <p>Ruby</p>
+              </div>
+              <p class="text-content">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src="https://prog-8.com/images/html/advanced/php.png">
+                <p>PHP</p>
+              </div>
+              <p class="text-content">Bahasa scripting "open-source" yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="bottom">
+      <div class="container">
+      <div class="heading-bottom">
+        <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
+        <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+      </div>
+        <span class="button">Mulai belajar</span>
+     </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="logo-footer">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Learn to code, learn to be creative</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+// FOR CSS
+
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+header {
+  background-color: rgba(34,49,52,0.9);
+  height : 65px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+.logo-header{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.logo {
+ width: 124px;
+ margin-top: 20px;
+}
+.header-left {
+  float:left;
+}
+.header-right {
+   float:right;
+   background-color: rgba(255,255,255,0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+   background-color: rgba(255,255,255,0.5);
+}
+.header-right a {
+   line-height: 65px;
+  color:white;
+  padding: 0 25px;
+  display: block;
+}
+.top{
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container h1 {
+ font-size: 45px; 
+ letter-spacing: 5px;
+ padding-bottom: 10px;
+ color: white;
+ opacity: 0.7;
+}
+.container p {
+  opacity: 0.7;
+  padding-bottom:3px;
+}
+.btn-top {
+  margin: 20px 0;
+}
+.btn-top p {
+  margin: 10px 0;
+}
+.Email {
+  background-color: #239b76;
+}
+.Facebook {
+  background-color: #3b5998;
+ 
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.fa {
+  margin-right: 5px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display:  inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.mid {
+    height: 500px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.heading h2 {
+  font-weight:normal;
+  color: #5f5d60;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.icon {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.lesson {
+  float:left;
+  width: 25%;
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color:white;
+}
+.text-content {
+  padding-top: 20px;
+ font-size: 15px;
+ width: 80%;
+ display: inline-block;
+ color: #b3aeb5;
+}
+.bottom {
+    margin-top: 60px;
+    padding-bottom: 80px;
+    text-align:center;
+    border-bottom: 1px solid #eee;
+}
+.heading-bottom {
+  color: #5f5d60;
+  padding-bottom: 30px;
+}
+.heading-bottom h2{
+  font-weight: normal;
+}
+.heading-bottom h3 {
+  font-weight: normal;
+}
+.button {
+  color: white;
+  background-color: #5dca88;
+  opacity: 0.8;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940 ;
+}
+.button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer {
+  padding-top: 30px;
+}
+.logo-footer img {
+  width: 124px;
+}
+.logo-footer p {
+  font-size: 12px;
+  color: #b3eaeb5;
+}
+.logo-footer {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
